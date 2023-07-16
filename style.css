@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tektur:wght@700&display=swap');
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+body {
+  font-family: 'Roboto', 'Times New Roman', sans-serif;
+  background-color: #282830;
+  color: whitesmoke;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* HEADER */
+
+header {
+  padding: 40px 0;
+  background-color: #15151b;
+}
+
+header > h1 {
+  font-family: 'Tektur', cursive;
+  font-size: 42px;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+  text-align: center;
+  color: #ff00b7;
+}
+
+/* SCOREBOARD */
+
+.scoreboard {
+  margin: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.player-score, .computer-score {
+  min-width: 200px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.score-number {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+/* MESSAGE */
+
+.message {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* OPTIONS */
+
+.game-options {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.option {
+    min-width: 200px;
+    padding: 20px;
+    background-color: #424242;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option:hover {
+    background-color: #5d5d5d;
+    cursor: pointer;
+}
+
+.option > .emoji {
+    font-size: 7rem;
+}
+
+.option > .option-text {
+    font-family: 'Tektur', cursive;
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    min-width: 100vw;
+    position: absolute;
+    bottom: 15px;
+}
+
+footer > p {
+    text-align: center;
+    font-weight: 700;
+}
+
