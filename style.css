@@ -21,7 +21,7 @@ body {
 }
 
 .no-wrap {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 /* HEADER */
@@ -82,46 +82,46 @@ header > h1 {
 /* OPTIONS */
 
 .game-options {
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .option {
-    min-width: 200px;
-    padding: 20px;
-    background-color: #424242;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  min-width: 200px;
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .option:hover {
-    background-color: #5d5d5d;
-    cursor: pointer;
+  background-color: #5d5d5d;
+  cursor: pointer;
 }
 
 .option > .emoji {
-    font-size: 7rem;
+  font-size: 7rem;
 }
 
 .option > .option-text {
-    font-family: 'Tektur', cursive;
-    font-size: 2rem;
+  font-family: 'Tektur', cursive;
+  font-size: 2rem;
 }
 
 /* FOOTER */
 
 footer {
-    min-width: 100vw;
-    position: absolute;
-    bottom: 15px;
+  min-width: 100vw;
+  position: absolute;
+  bottom: 15px;
 }
 
 footer > p {
-    text-align: center;
-    font-weight: 700;
+  text-align: center;
+  font-weight: 700;
 }
 
