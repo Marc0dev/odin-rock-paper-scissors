@@ -12,32 +12,40 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+    --DARK-COLOR: #15151b;
+    --BG-COLOR: #282830;
+    --PINK-COLOR: #ff00b7;
+    --WHITE-COLOR: whitesmoke;
+}
+
 /* GENERAL STYLES */
 
 body {
   font-family: 'Roboto', 'Times New Roman', sans-serif;
-  background-color: #282830;
+  background-color: var(--BG-COLOR);
   color: whitesmoke;
+  min-height: 100vh;
+  position: relative;
 }
 
-.no-wrap {
-  white-space: nowrap;
+h1 {
+  font-family: 'Tektur', cursive;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+  text-align: center;
+  color: var(--PINK-COLOR);
 }
 
 /* HEADER */
 
 header {
   padding: 40px 0;
-  background-color: #15151b;
+  background-color: var(--DARK-COLOR);
 }
 
 header > h1 {
-  font-family: 'Tektur', cursive;
   font-size: 42px;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.5rem;
-  text-align: center;
-  color: #ff00b7;
 }
 
 /* SCOREBOARD */
@@ -53,7 +61,7 @@ header > h1 {
 .player-score, .computer-score {
   min-width: 200px;
   padding: 20px;
-  background-color: rgb(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -125,3 +133,46 @@ footer > p {
   font-weight: 700;
 }
 
+/* GAME RESULT ALERT */
+
+.result-alert {
+  z-index: 1;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  padding: 40px 70px;
+  width: 800px;
+  height: 400px;
+  background-color: var(--DARK-COLOR);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px rgb(199, 199, 199);
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top: 250px;
+}
+
+.result-alert > h1 {
+  font-size: 64px;
+}
+
+.result-alert > button {
+    display: block;
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 20px 70px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--PINK-COLOR);
+    color: var(--WHITE-COLOR);
+    border: none;
+    border-radius: 30px;
+}
+
+.result-alert > button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
