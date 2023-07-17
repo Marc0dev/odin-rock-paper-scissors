@@ -13,10 +13,10 @@ html {
 }
 
 :root {
-    --DARK-COLOR: #15151b;
-    --BG-COLOR: #282830;
-    --PINK-COLOR: #ff00b7;
-    --WHITE-COLOR: whitesmoke;
+  --DARK-COLOR: #15151b;
+  --BG-COLOR: #282830;
+  --PINK-COLOR: #ff00b7;
+  --WHITE-COLOR: whitesmoke;
 }
 
 /* GENERAL STYLES */
@@ -155,21 +155,21 @@ footer > p {
 }
 
 .result-alert > button {
-    display: block;
-    font-family: inherit;
-    font-size: 36px;
-    font-weight: 700;
-    padding: 20px 70px;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--PINK-COLOR);
-    color: var(--WHITE-COLOR);
-    border: none;
-    border-radius: 30px;
+  display: block;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 20px 70px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--PINK-COLOR);
+  color: var(--WHITE-COLOR);
+  border: none;
+  border-radius: 30px;
 }
 
 .result-alert > button:hover {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
