@@ -26,7 +26,7 @@ This is a simple website that allows you to play the classic game of Rock Paper 
 
 ## Demo
 
-A live demo of the website can be found [here](https://marc0dev.github.io/rock-paper-scissors/).
+A live demo of the website can be found [here](https://marcft.github.io/rock-paper-scissors/).
 
 ## Installation
 
